@@ -6,10 +6,113 @@
     box-sizing: border-box;
 }
 
-/* *** header *** */
+.container{
+    width: 90%;
+    margin: auto;
+    max-width: 1170px;
+    margin-bottom: 1px solid black;
+}
+
+/* ***** header ***** */
+
+header{
+    /* font-weight: 600; */
+    height: 80px;
+    /* background-color: red; */
+    line-height: 80px;
+    padding: 0 10px;
+}
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#logo{
+    padding-right: 10px;
+}
+
+#logo , #sinistra {
+    float: left;
+    display: inline-block;
+}
+#destra , #bottone{
+    float: right;
+    display: inline-block;
+}
+
+#logo img {
+    vertical-align: middle;
+}
+
+#bottone {
+    vertical-align:middle;
+    text-align: right;
+}
+
+.btn:hover{
+    text-decoration: none;
+}
+
+nav{
+    width: 100%
+    float: left
+    /* text-align: center;  */
+}
+
+nav li{
+    display: inline-block;
+    text-decoration:none ;
+}
+
+nav li a {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    margin: 0 15px;
+    vertical-align: middle;
+}
+
+
 
 /* *** main *** */
 
 /* *** footer *** */
 
 /* *** debug *** */
+
+.debug .container{
+    background-color: red; 
+    height: 100%;
+    border: 1px solid black;
+}
+
+/* .debug .clearfix div{
+    height: 80px;
+    background-color: purple; 
+}  */
+
+/* .debug .clearfix nav{
+    height: 80px;
+    background-color: white; 
+} */
+
+/* .debug header{
+    height: 100px;
+    background-color: grey; 
+ } */
+
+.debug #jumbotron{
+     background-color: yellow; 
+}
+
+.debug main{
+    height: 900px; 
+    background-color: green;
+}
+
+ .debug footer{
+    height: 600px;
+    background-color: red;
+}
