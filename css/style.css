@@ -338,6 +338,7 @@ nav li a:hover{
 .card{
     width: 100%;
     height: 600px;
+    margin-bottom: 50px;
     
     /* background-color: brown; */
 }
@@ -417,11 +418,37 @@ nav li a:hover{
     padding-bottom: 20px;
 }
 
-/* .card-text p{
+.school{  
+    min-height: 800px;
+    background-color: aqua;
+    width: 100vw; 
+    margin-bottom: 50px;
+}
 
-} */
+.scuole{
+    width: 30vw;
+    height: 30vw;
+    background-color: brown;
+    z-index: 9999;
+    float: left;
+}
 
+.scuole-2{
+    width:calc(100vw - 60vw);
+    height: 30vw;
+    background-color:blue;
+    z-index: 9999;
+    float: left;
+}
 
+.scl{
+    width: 15vw;
+    height: 15vw;
+    background-color: purple;
+    border: 1px solid grey;
+    z-index: 9999;
+    float: left;
+}
 
 
 /* *** footer *** */
