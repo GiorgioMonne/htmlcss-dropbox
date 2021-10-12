@@ -419,8 +419,8 @@ nav li a:hover{
 }
 
 .school{  
-    min-height: 800px;
-    background-color: aqua;
+    min-height: 830px;
+    background-color: rgb(191, 207, 240); 
     width: 100vw; 
     margin-bottom: 50px;
 }
@@ -428,20 +428,206 @@ nav li a:hover{
 .scuole{
     width: 30vw;
     height: 30vw;
-    background-color: brown;
-    z-index: 9999;
+    /* background-color: brown; */
+    /* z-index: 9999; */
     float: left;
 }
 
 .scuole-2{
     width:calc(100vw - 60vw);
     height: 30vw;
-    background-color:blue;
-    z-index: 9999;
+    background-color:rgb(240, 240, 240);
     float: left;
 }
 
 .scl{
+    width: 15vw;
+    height: 15vw;
+    float: left;  
+    line-height: 15vw;
+    
+}
+
+#img-school3{  
+    width: 120px; 
+    height: 20px; 
+    text-align: center;
+    margin-left: 50px;
+    vertical-align: middle;
+    filter: invert(1);
+}
+
+#img-school1{  
+    width: 100%; 
+    height: 40px; 
+    text-align: center;
+    vertical-align: middle;
+    filter: invert(1);
+}
+ 
+#img-school2{  
+    width: 100%; 
+    height: 80px; 
+    text-align: center;
+    vertical-align: middle;
+    filter: invert(1);
+}
+
+#img-school4{  
+    width: 100%; 
+    height: 50px; 
+    text-align: center;
+    vertical-align: middle;
+    filter: invert(1);
+}
+
+#img-school5{  
+    width: 100%; 
+    height: 40px; 
+    text-align: center;
+    vertical-align: middle;
+    filter: invert(1);
+}
+
+#img-school6{  
+    width: 100%; 
+    height: 15px; 
+    text-align: center;
+    vertical-align: middle;
+    filter: invert(1);
+}
+
+#img-school7{  
+    width: 100%; 
+    height: 50px; 
+    text-align: center;
+    vertical-align: middle;
+    filter: invert(1);
+} 
+
+#img-school8{  
+    width: 100%; 
+    height: 70px; 
+    text-align: center;
+    vertical-align: middle;
+    filter: invert(1);
+} 
+
+.scl.verde{
+    background-color: lightgreen;
+}
+
+.scl.irgo{
+    background-color: rgb(69, 33, 33);
+}
+
+.scl.bluino{
+    background-color: rgb(36, 166, 196);
+}
+
+.scl.rossino{
+    background-color: red;
+}
+
+.scl.rosso{
+    background-color: rgb(175, 0, 0);
+}
+
+.scl.celeste{
+    background-color: lightblue;
+}
+
+.scl.blu{
+    background-color: blue;
+}
+
+.scl.giallo{
+    background-color: rgb(250, 212, 0);
+}
+
+.morten{
+    width: 80%;
+    padding: 40px 30px;
+}
+
+.morten h2{
+    font-size: 30px;
+}
+
+#company{
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.riga{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 40px;
+}
+
+.morten p{
+    padding-bottom: 25px;
+}
+
+.iscrizione{
+    width: 950px;
+    height: 200px;
+    /* background-color: brown; */
+    float: left;
+    padding-top: 50px;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+
+.iscrizione h2{
+    width: 50%;
+    padding-right: 80px%;
+    float: left;
+    color: purple;
+    font-size: 40px;
+}
+.iscrizione div{
+    /* width: 50%; */
+    float: right;
+}
+
+.gratuita{
+    padding: 5px 30px;
+    background-color: white;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+/* .scl div{
+    height:100%;
+    width: 100%;
+    background-color: rgb(255, 0, 115);
+    background-image: url(../img/university_of_florida.svg);
+    background-size: cover;
+} */
+
+
+}
+/* .scl-2{
+    width: 15vw;
+    height: 15vw;
+    object-fit: cover; 
+    background-color: purple;
+    border: 1px solid grey;
+    z-index: 9999;
+    float: left;
+    line-height: 15vw;
+}
+
+.scl-3{
     width: 15vw;
     height: 15vw;
     background-color: purple;
@@ -449,6 +635,51 @@ nav li a:hover{
     z-index: 9999;
     float: left;
 }
+
+.scl-4{
+    width: 15vw;
+    height: 15vw;
+    background-color: purple;
+    border: 1px solid grey;
+    z-index: 9999;
+    float: left;
+}
+
+.scl-5{
+    width: 15vw;
+    height: 15vw;
+    background-color: purple;
+    border: 1px solid grey;
+    z-index: 9999;
+    float: left;
+}
+
+.scl-6{
+    width: 15vw;
+    height: 15vw;
+    background-color: purple;
+    border: 1px solid grey;
+    z-index: 9999;
+    float: left;
+}
+
+.scl-7{
+    width: 15vw;
+    height: 15vw;
+    background-color: purple;
+    border: 1px solid grey;
+    z-index: 9999;
+    float: left;
+} 
+
+.scl-8{
+    width: 15vw;
+    height: 15vw;
+    background-color: purple;
+    border: 1px solid grey;
+    z-index: 9999;
+    float: left;
+} 
 
 
 /* *** footer *** */
