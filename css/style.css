@@ -422,7 +422,7 @@ nav li a:hover{
     min-height: 830px;
     background-color: rgb(191, 207, 240); 
     width: 100vw; 
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .scuole{
@@ -581,7 +581,7 @@ nav li a:hover{
 
 .iscrizione h2{
     width: 50%;
-    padding-right: 80px%;
+    /* padding-right: 80px; */
     float: left;
     color: purple;
     font-size: 40px;
@@ -599,8 +599,27 @@ nav li a:hover{
     color: black;
 }
 
+.domande {
+    width: 100%;
+}
 
+#strana{
+    margin: 25px 0;
+}
 
+.domande ul > li {
+    display: inline-block;
+    width: 100%;
+}
+
+.domande h4{
+    margin-bottom: 25px;
+}
+
+.domande h3{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
 
 
 
