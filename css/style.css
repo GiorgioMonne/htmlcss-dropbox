@@ -621,8 +621,24 @@ nav li a:hover{
     padding-bottom: 15px;
 }
 
+.domande ul > li p{
+    display: none;
+    color: rgb(0, 0, 44);
+    padding-top: 20px;
+} 
 
+.domande ul > li:hover p{
+    display: block;
+}
 
+#freccia{
+    float: right;
+    padding-right: 20px;
+}
+
+#buona{
+    margin-bottom: 15px;
+}
 
 
 /* .scl div{
