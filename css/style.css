@@ -28,11 +28,13 @@ body{
 /* ***** header ***** */
 
 header{
-    /* font-weight: 600; */
     height: 80px;
-    /* background-color: red;  */
+    width: 100%;
     line-height: 80px;
     padding: 0 10px;
+    position: fixed;
+    z-index: 999;
+    background-color: white;
 }
 
 .clearfix:after{
@@ -69,6 +71,8 @@ header{
 
 nav{
     width: 100%;
+    height: 80px;
+    line-height: 78px;
     float: left;
     /* text-align: center;  */
 }
@@ -84,18 +88,19 @@ nav li a {
     text-decoration: none;
     margin: 0 20px;
     vertical-align: middle;
+    display: inline-block;
 }
 
 nav li a:hover{
-    text-decoration: underline ;
+    text-decoration: none ;
+    border-bottom: 2px solid black;
 }
 
 .btn{
-    color: black;
+    color: white;
     font-size: 15px;
-    background-color: white;
+    background-color: blue;
     padding:5px 10px;
-    border-radius: 2em;
     text-decoration: none;
 }
 
@@ -121,11 +126,7 @@ nav li a:hover{
     margin-bottom: 30px;
 }
 
-.text{
-    /* background-color: aqua; */
-    /* float: left;
-    width: 300px; */
-}
+
 
 .testo{
     /* background-color: rgb(192, 226, 43); */
@@ -196,8 +197,8 @@ nav li a:hover{
 }
 
 .colonne{
-    /* background-color: brown; */
-    height: 600px;
+    /* background-color: brown;  */
+    min-height: 700px;
     /* text-align: center; */
 
 
@@ -229,24 +230,39 @@ nav li a:hover{
     padding-bottom: 15px;
 }
 
-/* .contenuto-col span{
-    padding-bottom: 15px;
-} */
 
 .contenuto-col div{
     padding-bottom: 12px;
 }
 
+.ul-colonna{
+    margin-top: 50px;
+}
+
 .ul-colonna ul li{
     list-style-type: none;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.colore{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 3px 50px;
+    font-weight: bold;
+}
+
+#check{
+    color: blue;
+    margin-right: 5px;
 }
 
 .Enterprise{  
-    width: 100%;
+    width: 95%;
     margin-top: 50px;
     padding-bottom: 20px;
-    /* margin: 0 15px; */
-    /* background-color: rgb(106, 83, 126); */
+    margin-left: 14px;
     border: 1px solid lightgrey; 
 }
 
@@ -601,6 +617,7 @@ nav li a:hover{
 
 .domande {
     width: 100%;
+    margin-bottom: 100px;
 }
 
 #strana{
@@ -640,84 +657,54 @@ nav li a:hover{
     margin-bottom: 15px;
 }
 
-
-/* .scl div{
-    height:100%;
-    width: 100%;
-    background-color: rgb(255, 0, 115);
-    background-image: url(../img/university_of_florida.svg);
-    background-size: cover;
-} */
-
-
-}
-/* .scl-2{
-    width: 15vw;
-    height: 15vw;
-    object-fit: cover; 
-    background-color: purple;
-    border: 1px solid grey;
-    z-index: 9999;
-    float: left;
-    line-height: 15vw;
-}
-
-.scl-3{
-    width: 15vw;
-    height: 15vw;
-    background-color: purple;
-    border: 1px solid grey;
-    z-index: 9999;
-    float: left;
-}
-
-.scl-4{
-    width: 15vw;
-    height: 15vw;
-    background-color: purple;
-    border: 1px solid grey;
-    z-index: 9999;
-    float: left;
-}
-
-.scl-5{
-    width: 15vw;
-    height: 15vw;
-    background-color: purple;
-    border: 1px solid grey;
-    z-index: 9999;
-    float: left;
-}
-
-.scl-6{
-    width: 15vw;
-    height: 15vw;
-    background-color: purple;
-    border: 1px solid grey;
-    z-index: 9999;
-    float: left;
-}
-
-.scl-7{
-    width: 15vw;
-    height: 15vw;
-    background-color: purple;
-    border: 1px solid grey;
-    z-index: 9999;
-    float: left;
-} 
-
-.scl-8{
-    width: 15vw;
-    height: 15vw;
-    background-color: purple;
-    border: 1px solid grey;
-    z-index: 9999;
-    float: left;
-} 
-
-
 /* *** footer *** */
+
+footer{
+    width: 100%;
+    height: 800px;
+    background-color: black;
+    padding: 100px 10vw;
+}
+ .indirizzi{
+    width: 80vw;
+    height: 500px; 
+    color: white;    
+}
+
+.indirizzi nav{
+    display: inline-block;   
+}
+
+.indirizzi nav ul{
+    display: inline-block;
+    float: left;
+    padding-left: 50px;
+}
+
+
+
+.indirizzi nav ul li{
+    display: block;
+    
+}
+
+
+#spax{
+    margin-bottom: 15px;
+} 
+
+.riga-z{
+    padding-top: 20px;
+    margin-left: 60px;
+    width: 70px;
+}
+
+.lingua{
+    margin-top: 100px;
+    margin-left: 60px;
+    width: 100%;
+    padding: 5px 0;
+}  
 
 /* *** debug *** */
 
@@ -751,7 +738,7 @@ nav li a:hover{
     background-color: green;
 } */
 
- .debug footer{
+ /* .debug footer{
     height: 600px;
     background-color: blue;
-}
+} */
